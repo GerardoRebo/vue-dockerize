@@ -3,6 +3,6 @@ WORKDIR /app
 RUN npm install -g @vue/cli
 
 # docker build -t vueappcreate -f Dockerfile-create-app .
-# docker run -itd -v ${PWD}:/app --name vueappcreate vueappcreate
-# docker exec -it vueappcreate vue create my-projectp
+# docker run -itd -v ${PWD}:/app --name vueapp vueappcreate
+# docker exec -it vueapp vue create my-projectp
 # sudo chown -R $USER:$(id -gn $USER) ./*
